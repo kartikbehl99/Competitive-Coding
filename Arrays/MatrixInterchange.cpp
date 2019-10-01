@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void intechange(int a[][1000], int r, int c) {
+void interchange(int a[][1000], int r, int c) {
     int colBeg = 0, colEnd = c-1;
     for(int i=0; i<r; i++) {
         int temp = a[i][colBeg];
